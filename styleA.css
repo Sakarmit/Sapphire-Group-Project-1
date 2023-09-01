@@ -9,11 +9,14 @@
 div {
     display: flex;
     justify-content: center;
+    text-align: center;
     color: black;
     border-top: 1px solid black;
     width: 100px;
     height: 100px;
     margin: 0 auto;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 div:last-of-type {
@@ -22,6 +25,7 @@ div:last-of-type {
     height: 100px;
     align-items: center;
     background-color: #687291;
+    vertical-align: center;
 }
 
 body {
@@ -32,4 +36,5 @@ body {
     font-size: 40px;
     height: 100vh;
     margin: 0;
+    min-height: max-content;
 }
