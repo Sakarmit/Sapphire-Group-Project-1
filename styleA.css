@@ -10,6 +10,8 @@ div {
     color: #687291;
     border-top: 1px solid black;
     display: flex;
+    width: 100px;
+    height: 100px;
 }
 
 div:last-of-type {
