@@ -1,0 +1,25 @@
+div {
+    display: inline-flex;
+    background-color: #eeeff2;
+    width: 100px;
+    height: 150px;
+    border-left: 10px dotted #D0D0FF;
+}
+
+div:last-of-type {
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+div:hover {
+    background-color: yellow;
+    color: goldenrod;
+}
+
+body {
+    min-width: max-content;
+    font-family: Tahoma, sans-serif;
+    font-size: 40px;
+}
