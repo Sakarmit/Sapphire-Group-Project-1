@@ -7,11 +7,14 @@
 }
 
 div {
-    color: #687291;
+    color: black;
     border-top: 1px solid black;
     display: flex;
     width: 100px;
     height: 100px;
+    justify-content: space-around;
+    margin: auto auto;
+
 }
 
 div:last-of-type {
@@ -23,4 +26,5 @@ div:last-of-type {
 body {
     font-family: Tahoma sans-serif;
     font-size: 40px;
+    height: 100vh;
 }
