@@ -1,0 +1,22 @@
+.light {
+    background-color: #eeeff2;
+}
+
+.dark {
+    background-color: #dfe1e7;
+}
+
+div {
+    color: #687291;
+    border-top: 1px solid black;
+    display: flex;
+}
+
+div:last-of-type {
+    border: 4px solid black;
+}
+
+body {
+    font-family: Tahoma sans-serif;
+    font-size: 40px;
+}
