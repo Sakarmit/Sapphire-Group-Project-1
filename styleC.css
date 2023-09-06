@@ -4,5 +4,5 @@ div
     height: 200px;
     width: 200px;
     background: linear-gradient(white, gold);
-    box-shadow: 0px 20px 6px -6px red;
+    box-shadow: 0 20px 6px -6px red;
 }
